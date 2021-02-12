@@ -666,8 +666,4 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -9.866666666666667 V 25.86666666666667 H 9.866666666666667 V 0 H 0 Z @dp</string>
-
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">4.6479797mm</dimen>
-    <dimen name="status_bar_height_landscape">24.0dip</dimen>
 </resources>
