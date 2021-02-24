@@ -15,6 +15,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# INIT
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_y2qdcmw
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineage_y2qdcmw_defconfig
 

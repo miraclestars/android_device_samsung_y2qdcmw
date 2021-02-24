@@ -33,6 +33,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit common device configuration
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
 
