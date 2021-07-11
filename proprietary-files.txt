@@ -196,10 +196,12 @@ vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
 vendor/bin/keymasterd
 vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
 vendor/etc/init/keymasterd.rc
+vendor/etc/permissions/android.hardware.strongbox_keystore.xml
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterutils.so
 vendor/lib/libqtikeymaster4.so
 vendor/lib/libspcom.so
+vendor/lib64/libkeymaster_helper.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
