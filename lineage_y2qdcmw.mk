@@ -30,21 +30,30 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 3200
+TARGET_SCREEN_WIDTH := 1440
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_y2qdcmw
 PRODUCT_DEVICE := y2qdcmw
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A525F
+PRODUCT_MODEL := SC-52A
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SYSTEM_DEVICE := qssi
+PRODUCT_SYSTEM_NAME := y2qdcmw
+
+PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a52qnsxx-user 11 RP1A.200720.012 A525FXXU4CVJB release-keys"
+    BUILD_DISPLAY_ID="$(BUILD_ID).SC52AOMU1CVK3" \
+    BUILD_NUMBER=SC52AOMU1CVK3 \
+    LINEAGE_DEVICE=y2qdcmw \
+    PRIVATE_BUILD_DESC="y2qdcmw-user 12 SP1A.210812.016 SC52AOMU1CVK3 release-keys" \
+    TARGET_DEVICE=y2q \
+    TARGET_PRODUCT=y2qdcmw \
+    TARGET_BUILD_FLAVOR="y2qdcmw-$(TARGET_BUILD_VARIANT)"
 
-BUILD_FINGERPRINT := "samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXU4CVJB:user/release-keys"
+BUILD_FINGERPRINT := samsung/SC-52A/SC-52A:12/SP1A.210812.016/SC52AOMU1CVK3:user/release-keys
