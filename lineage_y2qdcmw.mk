@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a52q/device.mk)
+$(call inherit-product, device/samsung/y2qdcmw/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -34,8 +34,8 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a52q
-PRODUCT_DEVICE := a52q
+PRODUCT_NAME := lineage_y2qdcmw
+PRODUCT_DEVICE := y2qdcmw
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A525F
 PRODUCT_MANUFACTURER := samsung

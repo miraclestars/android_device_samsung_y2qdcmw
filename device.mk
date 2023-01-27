@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a52q
+DEVICE_PATH := device/samsung/y2qdcmw
 
 # call the common setup
 $(call inherit-product, device/samsung/sm7125-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a52q/a52q-vendor.mk)
+$(call inherit-product, vendor/samsung/y2qdcmw/y2qdcmw-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.a52q.rc
+    init.y2q.rc
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay

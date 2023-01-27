@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a52q
+DEVICE_PATH := device/samsung/y2qdcmw
 
 # Inherit common board flags
 include device/samsung/sm7125-common/BoardConfigCommon.mk
@@ -23,11 +23,11 @@ include device/samsung/sm7125-common/BoardConfigCommon.mk
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineage-a52q_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineage_y2qdcmw_defconfig
 BOARD_BOOT_HEADER_NAME := SRPTH31C002
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := a52q
+TARGET_OTA_ASSERT_DEVICE := y2qdcmw
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=a52q
+export DEVICE=y2qdcmw
 export DEVICE_COMMON=sm7125-common
 export VENDOR=samsung
 
