@@ -20,7 +20,7 @@ DEVICE_PATH := device/samsung/y2qdcmw
 include device/samsung/sm8250-common/BoardConfigCommon.mk
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 450
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineage_y2qdcmw_defconfig
