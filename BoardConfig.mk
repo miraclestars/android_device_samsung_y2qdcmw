@@ -17,7 +17,7 @@
 DEVICE_PATH := device/samsung/y2qdcmw
 
 # Inherit common board flags
-include device/samsung/sm7125-common/BoardConfigCommon.mk
+include device/samsung/sm8250-common/BoardConfigCommon.mk
 
 # Display
 TARGET_SCREEN_DENSITY := 420

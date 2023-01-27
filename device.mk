@@ -17,7 +17,7 @@
 DEVICE_PATH := device/samsung/y2qdcmw
 
 # call the common setup
-$(call inherit-product, device/samsung/sm7125-common/common.mk)
+$(call inherit-product, device/samsung/sm8250-common/common.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/y2qdcmw/y2qdcmw-vendor.mk)
