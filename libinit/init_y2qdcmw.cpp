@@ -42,8 +42,8 @@ void vendor_load_properties()
     std::string bootloader = GetProperty("ro.bootloader", "");
 
     if (bootloader.find("SC52A") == 0) {
-        property_override("ro.build.description", "y2qdcmw-user 12 SP1A.210812.016 SC52AOMU1CVK3 release-keys");
-        set_ro_build_prop("fingerprint", "samsung/SC-52A/SC-52A:12/SP1A.210812.016/SC52AOMU1CVK3:user/release-keys");
+        property_override("ro.build.description", "y2qdcmw-user 13 TP1A.220624.014 SC52AOMU1DWA5 release-keys");
+        set_ro_build_prop("fingerprint", "samsung/SC-52A/SC-52A:13/TP1A.220624.014/SC52AOMU1DWA5:user/release-keys");
         set_ro_product_prop("model", "SC-52A");
         set_ro_product_prop("name", "y2qdcmw");
     }

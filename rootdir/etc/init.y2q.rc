@@ -158,7 +158,7 @@ on boot
     chmod 0664 /dev/cpuset/abnormal/cpus
 
     mkdir /dev/cpuset/moderate
-    write /dev/cpuset/moderate/cpus 0-2,4-6
+    write /dev/cpuset/moderate/cpus 0-2
     copy /dev/cpuset/mems /dev/cpuset/moderate/mems
 
     chown system system /dev/cpuset/moderate
@@ -206,13 +206,21 @@ on post-fs-data && property:ro.csc.sales_code=TMB
     rmdir /mnt/temp
 
 # DCK properties based on target
-# DigitalKey (Supported Country) : EUR, KOR, USA, CAN, SEA/Oceania
+# DigitalKey (Supported Country) : KR,US,GB,DE,FR,IT,ES
 on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=KR
     setprop ro.gms.dck.eligible_wcc 1
 on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=US
     setprop ro.gms.dck.eligible_wcc 1
 on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=GB
     setprop ro.gms.dck.eligible_wcc 1
+on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=GB && property:ro.oem.key2=MET
+    setprop ro.gms.dck.eligible_wcc 0
+on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=GB && property:ro.oem.key2=VDI
+    setprop ro.gms.dck.eligible_wcc 0
+on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=GB && property:ro.oem.key2=TSI
+    setprop ro.gms.dck.eligible_wcc 0
+on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=GB && property:ro.oem.key2=3IE
+    setprop ro.gms.dck.eligible_wcc 0
 on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=DE
     setprop ro.gms.dck.eligible_wcc 1
 on property:sys.boot_completed=1 && property:ro.csc.countryiso_code=FR

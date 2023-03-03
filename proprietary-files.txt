@@ -1,4 +1,4 @@
-# All blobs are from SC52AOMU1CVK3, unless pinned
+# All blobs are from SC52AOMU1DWA5, unless pinned
 
 # ACDB
 vendor/etc/audconf/OPEN/Bluetooth_cal.acdb
