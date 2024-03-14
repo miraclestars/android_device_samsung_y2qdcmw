@@ -1,2 +1,5 @@
 # Bluetooth
 bluetooth.device.default_name=Galaxy S20+ 5G
+
+# Fingerprint
+ro.vendor.fingerprint.sensor_location=720|2483|154

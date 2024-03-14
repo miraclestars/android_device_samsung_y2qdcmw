@@ -43,18 +43,6 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -30.5625 V 84 H 30.5625 V 0 H 0 Z @dp</string>
 
-    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
-    <integer-array name="config_udfps_sensor_props" translatable="false" >
-    <!--
-        <item>sensorLocationX</item>
-        <item>sensorLocationY</item>
-        <item>sensorRadius</item>
-    -->
-        <item>720</item>
-        <item>2483</item>
-        <item>154</item>
-    </integer-array>
-
     <!-- The RadioAccessFamilies supported by the device.
          Empty is viewed as "all".  Only used on devices which
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
