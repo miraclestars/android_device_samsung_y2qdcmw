@@ -18,4 +18,4 @@ export DEVICE=y2qdcmw
 export DEVICE_COMMON=sm8250-common
 export VENDOR=samsung
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
