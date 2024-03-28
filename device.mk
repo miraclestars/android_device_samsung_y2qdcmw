@@ -31,4 +31,5 @@ PRODUCT_PACKAGES += \
     init.y2q.rc
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
+PRODUCT_PACKAGES += \
+    FrameworksResY2qdcmw
