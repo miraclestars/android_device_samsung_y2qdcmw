@@ -1,0 +1,66 @@
+# All blobs are from SC52AOMS1DWL1, unless pinned
+
+# Audio
+vendor/etc/LVACFS_Configuration.txt
+vendor/etc/LVACFS_ControlParams.txt
+vendor/etc/dolby/dax-default.xml
+vendor/etc/floating_feature.xml
+-vendor/lib/lib_SamsungRec_08020.so
+-vendor/lib/lib_lvacfs.so
+-vendor/lib/librecordalive.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libswdap.so
+
+# Bluetooth
+vendor/firmware/bcm4375B1_murata.hcd
+vendor/firmware/bcmdhd_clm.blob
+vendor/firmware/bcmdhd_mfg.bin_b1
+vendor/firmware/bcmdhd_mon.bin_b1
+vendor/firmware/bcmdhd_sta.bin_b1
+
+# Camera
+vendor/lib/hw/camera.qcom.so
+vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/libvdis_interface.so
+vendor/lib64/hw/camera.qcom.so
+vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libvdis_interface.so
+
+# Firmware
+vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l20.bin
+
+# Graphics
+vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB677TY01_WQHD.xml
+
+# NFC
+vendor/etc/sec_senn82ab_rfreg.bin
+vendor/firmware/sec_senn82ab_firmware.bin
+
+# RIL
+-vendor/lib64/libsec-ril.so
+
+# Sensors
+vendor/etc/sensors/config/kona_ak991x_0.json
+vendor/etc/sensors/config/kona_ak991x_4.json
+vendor/etc/sensors/config/kona_ak991x_13.json
+
+# Wi-Fi
+vendor/etc/wifi/indoorchannel.info
+vendor/firmware/nvram.txt_1rh_es11_b0
+vendor/firmware/nvram.txt_1rh_es12_b0
+vendor/firmware/nvram.txt_1rh_es13_b0
+vendor/firmware/nvram.txt_1rh_es32_b0
+vendor/firmware/nvram.txt_1rh_es41_b1
+vendor/firmware/nvram.txt_1rh_es42_b1
+vendor/firmware/nvram.txt_1rh_es43_b1
+vendor/firmware/nvram.txt_CS01_semco_b1
+vendor/firmware/nvram.txt_ES00_semco_b0
+vendor/firmware/nvram.txt_ES01_semco_b0
+vendor/firmware/nvram.txt_ES02_semco_b0
+vendor/firmware/nvram.txt_ES03_semco_b0
